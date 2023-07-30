@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello CS 360"
+        />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's your name?"
+        />
+
+    <Button
+        android:id="@+id/buttonSayHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled ="false"
+        android:text="SayHello()"
+        />
+
+
+</LinearLayout>
